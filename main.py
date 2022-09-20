@@ -145,20 +145,31 @@ print(num3)
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+            'last_name': 'pretti',
+            'weight': 37.2,
+            'size': 5.77,
+            'height': 6}
+print(employee['weight'])
+print(employee['size'])
+
 
 #challenge 1
-# Create a dictionary called my_dict that stores the following information about a person:
+# Create a dictionary called my_dict2 that stores the following information about a person:
 # name: Karen
 # surname: Jurgens
 # age: 35
 # occupation: Journalist
 # The names of the keys and values must be equal to the ones indicated above.
+
+my_dict2 = {'name': 'Karen',
+            'surname': 'Jurgens',
+            'age': 35,
+            'occupation': 'Journalist',}
+print(my_dict2['name'])
+print(my_dict2['surname'])
+print(my_dict2['age'])
+print(my_dict2['occupation'])
 
 #challenge 2:
 # Use print to returns the second item of the list called points2, inside the following dictionary.
@@ -174,6 +185,7 @@ my_dict = {
         "points2": [10, 300, 15]
     }
 }
+
 # print(my_dict[]) #Use dictionary indices to extract the second item of points2
 
 #challenge 2
