@@ -59,29 +59,44 @@ print(d)
 
 #################################################sets######################################################
 
+# sets are similar to tuples, the only difference is that they will not contain or print out any repeated elements
+my_firstset = set((1,2,2,2,3,4,5))
+print(my_firstset)
+# True
+print(2 in my_firstset)
+# False
+print(6 in my_firstset)
 
 # Join the following sets into one, called my_set_3:
 
-{1, 2, "three", "four"}
-
-{"three", 4, 5}
-
+set1 = {1, 2, "three", "four"}
+set2 = {"three", 4, 5}
+# can use double parenthesis or brackets like this for sets
+s3 = set1.union(set2)
+print(s3)
+s3.add(8)
+print(s3)
 
 # Remove a random item from the following set, using set methods.
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-
-
+raffle.remove("Rachel")
+print(raffle)
+raffle.remove("Phoebe")
+print(raffle)
 
 # Add the name Gunther to the following set, using set methods:
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
 
+raffle.add("Mr.Evins")
+print(raffle)
+
 #################################################booleans######################################################
 # booleans
-# a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
-#print(my_bool)
+a boolean can only have 2 values -- true or False
+my_bool = 5 > 4
+print(my_bool)
 
 # > greater
 # < less
